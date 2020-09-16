@@ -1,18 +1,100 @@
-.container {
-    width: 100%;
-    height: 100%;
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:#F76B1D;
+  background-size: cover;
 }
 
-h4 {
-    text-align: center;
+.profile-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  height: 70vh;
+  
 }
-
-p {
-    text-align: center;
-}
-
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
+.profile-image {
+  background: url('resurse/119707582_2498718537091985_5629603755873045592_n.png');
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+  width: 20vh;
+  height: 20vh;
+  filter: grayscale(50%);
+  display: flex;
+  align-content: center;
+  background-color: #666;
+  margin-top: -50px;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-image:hover {
+  filter: grayscale(20%);
+  transform: scale(1.1);
+}
+
+.name-headline h1 {
+  margin-top: 6vh;;
+  font-size: 4vh;
+  margin-bottom: 1vh;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-weight: bold;
+}
+.name-headline {
+  line-height: 100%;
+}
+.work {
+  background-color: #F76B1D;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.content {
+ text-align: center;
+ /*line-height: 130%;
+ border-top: 10px solid #F76B1D ;*/
+ width: 90%;
+ margin: 0 auto;
+ padding: 5% 10%;
+}
+.head, .about {
+  margin-bottom: 7%;
+}
+.links {
+  text-align: center;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+/*font-size: 20px;
+line-height: 1.2;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 700;
+margin: 0;
+color: #333*/
