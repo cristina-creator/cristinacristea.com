@@ -9,6 +9,8 @@ body {
   text-align: center;
   background-color:#F76B1D;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
 }
 
 .profile-card {
@@ -17,7 +19,7 @@ body {
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   width: 480px;
   max-width: calc(100vw - 10px);
-  height: 70vh;
+  height: 80vh;
   
 }
 img {
@@ -26,12 +28,9 @@ img {
   border-radius: 50%;
 }
 .profile-image {
-  background: url('resurse/119707582_2498718537091985_5629603755873045592_n.png');
   border-radius: 50%;
-  width: 20vh;
-  height: 20vh;
-  width: 20vh;
-  height: 20vh;
+  width: 120px;
+  height: 120px;
   filter: grayscale(50%);
   display: flex;
   align-content: center;
